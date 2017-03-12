@@ -1,2 +1,2 @@
 # Silver Act
-Webstart Project for Silver Act Company
+Webstart Project for the Silver Act Company

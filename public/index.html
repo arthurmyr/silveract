@@ -4,19 +4,20 @@
     <title>Accueil, Silver Act'</title>
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="css/common.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <link rel="icon" href="img/logo.png">
 </head>
 
 <body>
     <header id="header">
-        <h1><img src="img/logo2.png" id="logo"></h1>
+        <h1><a href="/"><img src="img/logo.png" id="logo" alt="Logo Silver Act"></a></h1>
         <nav>
-            <ul id="navigation">
-                <li>ACCUEIL</li>
-                <li>PRESENTATION</li>
-                <li>ACTIVITÉS</li>
-                <li>CONTACT</li>
+            <ul id="nav">
+                <li><a href="/">ACCUEIL</a></li>
+                <li><a href="/presentation">PRESENTATION</a></li>
+                <li><a href="/activites">ACTIVITÉS</a></li>
+                <li><a href="/contact">CONTACT</a></li>
             </ul>
         </nav>
     </header>
@@ -28,11 +29,11 @@
         </div>
         <h2>LE PLEIN D’ENERGIE POUR SENIORS</h2>
         <h3>ACTIVITES ET LOISIRS A DOMICILE - PARIS</h3>
-        <button type="button" class="bigContactBtn">NOUS CONTACTER</button>
+        <a href="/contact" class="btn bigContactBtn">NOUS CONTACTER</a>
         <div class="desc">
             <p>Silver Act s’est lancé le pari fou de dynamiser le quotidien des seniors afin de qu’ils gardent le sourire et la joie qu’on ne se lasse pas de voir sur leurs visages.</p>
             <p>Et pour cela rien de mieux que des activités sur-mesure et à domicile pour rythmer leurs journées !</p>
-            <button class="plusBtn" type="button">EN SAVOIR PLUS</button>
+            <a href="/presentation" class="btn plusBtn">EN SAVOIR +</a>
         </div>
     </section>
 
@@ -44,16 +45,17 @@
             </div>
             <div class="contact">
                 <p>Un besoin spécifique ? tout est possible !</p>
-                <button type="button" class="contactBtn">NOUS CONTACTER</button>
+                <a href="/contact" class="btn contactBtn">NOUS CONTACTER</a>
             </div>
         </header>
         <div class="articles">
             <article class="bien-etre">
                 <div class="blackOverlay hover"></div>
                 <figure>
-                    <img src="img/activite1.jpg">
+                    <img src="img/activite1.jpg" alt="Femme sur une chaise faisant des activités liées au bien être">
                     <figcaption class="figSkew">
-                      <h3>Bien-être<hr></h3>
+                      <h3>Bien-être</h3>
+                      <hr>
                       <p>Stimulation mémorielle et activités physiques adaptées</p>
                     </figcaption>
                   </figure>
@@ -61,9 +63,10 @@
             <article class="informatique skew">
                 <div class="blackOverlay hover"></div>
                 <figure>
-                    <img src="img/activite2.jpg">
+                    <img src="img/activite2.jpg" alt="Homme sur une tablette tactile apprenant l'informatique">
                     <figcaption class="figSkew">
-                        <h3>Informatique<hr></h3>
+                        <h3>Informatique</h3>
+                        <hr>
                         <p>Cours et initiations aux outils et à l’univers du numérique</p>
                     </figcaption>
                 </figure>
@@ -71,9 +74,10 @@
             <article class="culture">
                 <div class="blackOverlay hover"></div>
                 <figure>
-                    <img src="img/activite3.jpg">
+                    <img src="img/activite3.jpg" alt="Personne agée faisant un atelier lié à la culture">
                     <figcaption class="figSkew">
-                        <h3>Culture<hr></h3>
+                        <h3>Culture</h3>
+                        <hr>
                         <p>Ateliers et loisirs artistiques et culturels</p>
                     </figcaption>
                 </figure>
@@ -87,18 +91,18 @@
         <header>
             <h2>NOS INTERVENANTS</h2>
             <h4>Des professionnels expérimentés et de confiance</h4>
-            <button type="button" class="contactBtn">NOUS CONTACTER</button>
+            <a href="/contact" class="btn contactBtn">NOUS CONTACTER</a>
         </header>
         <div class="prese">
             <div class="desc">
               <p>Recruté avec soin, nos intervenants sont tous pasionnés par leur métier et ont à coeur à transmettre et à partager leur savoir. Bonne humeur et symapthie garantie !</p>
               <hr>
-              <button class="plusBtn" type="button">EN SAVOIR PLUS</button>
+              <a href="/presentation" class="btn plusBtn">EN SAVOIR +</a>
             </div>
             <ul>
               <li>
                 <figure>
-                  <img src="img/stephan-leroux.jpg" alt="">
+                  <img src="img/stephan-leroux.jpg" alt="Portrait de Stéphan Leroux">
                   <figcaption>
                     <span class="name">Stéphan Leroux</span>
                     <span class="job">Journaliste et écrivain</span>
@@ -108,7 +112,7 @@
               </li>
               <li>
                   <figure>
-                    <img src="img/nadia-hingmamps.jpg" alt="">
+                    <img src="img/nadia-hingmamps.jpg" alt="Portrait de Nadia Hingmamps">
                     <figcaption>
                       <span class="name">Nadia Hingmamps</span>
                       <span class="job">Professeur de Pilates</span>
@@ -117,7 +121,7 @@
               </li>
               <li>
                   <figure>
-                    <img src="img/yves-dusautier.jpg" alt="">
+                    <img src="img/yves-dusautier.jpg" alt="Portrait de Yves Dusautier">
                     <figcaption>
                       <span class="name">Yves Dusautier</span>
                       <span class="job">Informaticien</span>
@@ -128,7 +132,7 @@
         </div>
         <footer>
             <div class="blackOverlay hover"></div>
-            <img src="img/silver-mjm.jpg" alt="">
+            <img src="img/silver-mjm.jpg" alt="Personnes agées avec un étudiant de l'école MJM">
         </footer>
     </section>
     
@@ -136,12 +140,12 @@
         <header>
             <h2 id="offres">NOS OFFRES</h2>
             <h4>De larges possibilités avec toujours à la clé, des prix au rabais</h4>
-            <button type="button" class="contactBtn">NOUS CONTACTER</button>
+            <a href="/contact" class="btn contactBtn">NOUS CONTACTER</a>
         </header>
         <ul>
             <li>
                 <figure>
-                    <img src="img/number-one.png">
+                    <img src="img/number-one.png" alt="Logo avec le chiffre 1">
                     <figcaption>
                         <p>Séance à l'unité</p>
                     </figcaption>
@@ -149,7 +153,7 @@
             </li>
             <li>
                 <figure>
-                    <img src="img/multiple-users.png">
+                    <img src="img/multiple-users.png" alt="Logo de silhouettes de personnes">
                     <figcaption>
                         <p>Forfaits solo, duo ou trio</p>
                     </figcaption>
@@ -157,7 +161,7 @@
             </li>
             <li>
                 <figure>
-                    <img src="img/calendar-check.png">
+                    <img src="img/calendar-check.png" alt="Logo d'un calendrier">
                     <figcaption>
                         <p>Abonnements <br>(semaine, mois, ...)</p>
                     </figcaption>
@@ -174,7 +178,7 @@
             <article class="europe1">
                 <div class="blackOverlay hover"></div>
                 <figure>
-                    <img src="img/europe1.png">
+                    <img src="img/europe1.png" alt="Logo de la radio Europe 1">
                     <figcaption>
                         <h3>EUROPE 1</h3>
                         <hr>
@@ -184,7 +188,7 @@
             <article class="teleMatin skew">
                 <div class="blackOverlay hover"></div>
                 <figure>
-                    <img src="img/tele_matin.jpg">
+                    <img src="img/tele_matin.jpg" alt="Photo d'une présentatrice de la chaine Télé Matin">
                     <figcaption>
                         <h3>FRANCE 2</h3>
                         <hr>
@@ -194,7 +198,7 @@
             <article class="maVieEnSilver">
                 <div class="blackOverlay hover"></div>
                 <figure>
-                    <img src="img/ma-vie-en-silver.jpg">
+                    <img src="img/ma-vie-en-silver.jpg" alt='Photo du guide "ma vie en silver"'>
                     <figcaption>
                         <h3>MA VIE EN SILVER </h3>
                         <hr>
@@ -206,9 +210,15 @@
         
     <footer id="footer">
         <div class="icons">
-            <img src="img/facebook.png" alt="Icone facebook">
-            <img src="img/twitter.png" alt="Icone twitter">
-            <img src="img/youtube.png" alt="Icone youtube">
+            <a href="https://www.facebook.com/Silver-Act-1546987715608304" target="_blank">
+                <img src="img/facebook.png" alt="Icone facebook">
+            </a>
+            <a href="https://twitter.com/silveract5" target="_blank">
+                <img src="img/twitter.png" alt="Icone twitter">
+            </a>
+            <a href="https://www.youtube.com/channel/UC6DFf5mLna_Iy7mSYyW00RQ" target="_blank">
+                <img src="img/youtube.png" alt="Icone youtube">
+            </a>
         </div>
         <p>SILVER ACT © - TOUS DROITS RESERVES - 2017</p>
         <label>

@@ -15,7 +15,7 @@ app
     res.sendFile('public/activites.html', { root : __dirname });
 })
 .get('/contact', function(req, res){
-    res.sendFile('public/contact.html', { root : __dirnamev});
+    res.sendFile('public/contact.html', { root : __dirname});
 })
 .use(function(req, res){
     res.redirect('/');
