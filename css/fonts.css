@@ -1,0 +1,21 @@
+/* FASHION FETISH */
+@font-face {
+    font-family: "fetish";
+    src: url(../font/Fashion_Fetish_Regular.ttf);
+}
+/* CENTURY GOTHIC */
+@font-face {
+    font-family: "century";
+    font-weight: normal;
+    src: url(../font/century.ttf);
+}
+@font-face {
+    font-family: "century";
+    font-weight: bold;
+    src: url(../font/century-bold.ttf);
+}
+/* CIRCULAR */
+@font-face {
+    font-family: "circular";
+    src: url(../font/CircularStd.otf);
+}

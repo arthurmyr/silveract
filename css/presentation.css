@@ -1,0 +1,124 @@
+/*-----FIRST BLOCK-----*/
+#FirstBlock{
+    width: 100%;
+    height: 500px;
+    padding-top: 100px;
+    font-family: century;
+}
+#FirstBlock #textGauche{
+    width: 35%;
+    float: left;
+    padding: 3% 0 0 5%;
+}
+#FirstBlock #textGauche h2{
+    color: #457687;
+    font-size: 27px;
+}
+#FirstBlock #textGauche p{
+    margin-top: 7%;
+    font-size: 19px;
+}
+#FirstBlock #videoDroite{
+    width: 50%;
+    float: left;
+    padding: 3% 0 0 5%;
+}
+#FirstBlock #videoDroite video{
+    width: 100%;
+}
+/*-----END FIRST BLOCK*/
+#betw1{
+    height: 185px;
+    background: url("../IMAGES/betw1.png") 0 0 no-repeat;
+    background-size: 100%;
+}
+/*-----SECONDE BLOCK-----*/
+#services{
+    height: 450px;
+    font-family: century;
+}
+#services h2{
+    font-size: 30px;
+    color: #457687;
+    padding: 3% 0 0 5%;
+}
+#services #envelope{
+    float: left;
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 20%;
+    text-align: center;
+}
+#services #envelope img{
+    width: 100px;
+}
+#services #envelope p{
+    margin-top: 5%;
+    font-size: 16px;
+}
+#services #silhouettes{
+    float: left;
+    width: 20%;
+    margin-left: 3%;
+    margin-top: 5.2%;
+    text-align: center;
+}
+#services #silhouettes img{
+    width: 100px;
+}
+#services #silhouettes p{
+    margin-top: 5%;
+    font-size: 16px;
+}
+#services #documents{
+    float: left;
+    width: 20%;
+    margin-left: 3%;
+    margin-top: 5%;
+    text-align: center;
+}
+#services #documents img{
+    width: 100px;
+}
+#services #documents p{
+    margin-top: 5%;
+    font-size: 16px;
+}
+#services #phone{
+    float: left;
+    width: 20%;
+    margin-left: 3%;
+    margin-top: 5%;
+    text-align: center;
+}
+#services #phone img{
+    width: 100px;
+}
+#services #phone p{
+    margin-top: 5%;
+    font-size: 16px;
+}
+/*-----END SECONDE BLOCK-----*/
+#betw2{
+    height: 185px;
+    background: url("../IMAGES/betw2.png") 0 0 no-repeat;
+    background-size: 100%;
+}
+/*-----THIRD BLOCK-----*/
+#interv{
+    height: 630px;
+    font-family: century;
+}
+#interv h2{
+    color: #457687;
+    padding: 2% 0 0 5%;
+    font-size: 30px;
+}
+#interv p{
+    padding: 3% 5%;
+    font-size: 17px;
+}
+#interv #photos img{
+    width: 100%;
+}
+/*-----END THIRD BLOCK-----*/

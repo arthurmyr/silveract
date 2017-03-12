@@ -1,0 +1,622 @@
+/*-----FIRST BLOCK-----*/
+
+
+
+
+
+
+#activite1{
+    background: url("../IMAGES/activit%C3%A91.png") 0 50px no-repeat;
+    background-size: 1450px;
+    height: 720px;
+    font-family: century;
+}
+#activite1 #text {
+    text-align: right;
+    margin-right: 5%;
+}
+#activite1 #text h2{
+    font-weight: bold;
+    font-size: 50px;
+    padding-top: 100px;
+    color: white;
+}
+#activite1 #text #subtitle1{
+    border-bottom: solid 1px #ea4d50;
+    width: 5%;
+    margin-top: 10px;
+    margin-left: 94.7%;
+}
+#activite1 #text p{
+    color: white;
+    font-weight: 100;
+    width: 28%;
+    padding: 10px;
+    margin-left: 71.5%;
+    font-size: 17px;
+}
+#activite1 #margin-top-text{
+    margin-top: 60px;
+}
+#activite1 a {
+    background-color: #ea4d50;
+    color: white;
+    padding: 15px 3vw;
+    top:450px;
+    left: 200px;
+    position: absolute;
+    font-size: 20px;
+    float: left
+}
+#activite1 a img{
+    margin-right: 10px;
+    float: left;
+}
+#activite1 #description1{
+    width: 30%;
+    text-align: center;
+    margin-top: 52px;
+    margin-left: 10%;
+    float: left;
+}
+#activite1 #description1 h3{
+    color: #457687;
+    font-weight: bold;
+    float: left;
+    font-size: 22px;
+}
+#activite1 #description1 img{
+    float: left;
+    width: 90px;
+    margin-top: -15px;
+}
+#activite1 #description1 h4{
+    color: black;
+    font-size: 17px;
+    float: inherit;
+    font-weight: 100;
+}
+#activite1 #description2{
+    width: 30%;
+    text-align: center;
+    margin-top: 70px;
+    float: left;
+}
+#activite1 #description2 h3{
+    color: #457687;
+    font-weight: bold;
+    float: left;
+    font-size: 22px;
+}
+#activite1 #description2 img{
+    float: left;
+    width: 90px;
+    margin-top: -15px;
+    margin-left: 20px;
+}
+#activite1 #description2 h4{
+    color: black;
+    font-size: 17px;
+    float: inherit;
+    font-weight: 100;
+}
+#activite1 #description3{
+    width: 30%;
+    text-align: center;
+    margin-top: 75px;
+    float: left;
+}
+#activite1 #description3 h3{
+    color: #457687;
+    font-weight: bold;
+    float: left;
+    font-size: 22px;
+    margin-left: 8%;
+}
+#activite1 #description3 img{
+    float: left;
+    width: 50px;
+    margin-top: -15px;
+    margin-left: 20px;
+}
+#activite1 #description3 h4{
+    color: black;
+    font-size: 17px;
+    float: inherit;
+    font-weight: 100;
+}
+
+
+
+
+
+
+
+/*-----END FIRST BLOCK-----*/
+/*-----SECONDE BLOCK-----*/
+
+
+
+
+
+
+
+
+#activite2{
+    background: url("../IMAGES/activit%C3%A92.png") 0 0 no-repeat;
+    background-size: 1450px;
+    height: 700px;
+    font-family: century;
+}
+#activite2 #text {
+    text-align: right;
+    margin-right: 5%;
+}
+#activite2 #text h2{
+    font-weight: bold;
+    font-size: 50px;
+    padding-top: 30px;
+    color: white;
+}
+#activite2 #text p{
+    color: white;
+    font-weight: 100;
+    width: 28%;
+    padding: 10px;
+    margin-left: 71.5%;
+    font-size: 17px;
+}
+#activite2 #text #subtitle1{
+    border-bottom: solid 1px #ea4d50;
+    width: 5%;
+    margin-top: 10px;
+    margin-left: 94.7%;
+}
+#activite2 #margin-top-text{
+    margin-top: 60px;
+}
+#activite2 a {
+    background-color: #ea4d50;
+    color: white;
+    padding: 15px 3vw;
+    top:1200px;
+    left: 200px;
+    position: absolute;
+    font-size: 20px;
+    float: left
+}
+#activite2 a img{
+    margin-right: 10px;
+    float: left;
+}
+#activite2 #description1{
+    width: 25%;
+    text-align: center;
+    margin-top: 135px;
+    margin-left: 5%;
+    float: left;
+}
+#activite2 #description1 h3{
+    color: #457687;
+    font-weight: bold;
+    float: left;
+    padding-left: 30px;
+    font-size: 22px;
+}
+#activite2 #description1 img{
+    float: left;
+    width: 50px;
+    margin-top: -15px;
+    padding-left: 20px;
+}
+#activite2 #description1 h4{
+    color: black;
+    font-size: 15px;
+    float: inherit;
+    font-weight: 100;
+    font-size: 17px;
+    margin-top: 10px;
+}
+#activite2 #description2{
+    width: 31vw;
+    text-align: center;
+    margin-top:115px;
+    float: left;
+    padding:0 3%;
+}
+#activite2 #description2 h3{
+    color: #457687;
+    font-weight: bold;
+    float: left;
+    margin-left: 11%;
+    font-size: 22px;
+}
+#activite2 #description2 img{
+    float: left;
+    width: 60px;
+    margin-top: 0;
+    margin-left: 20px;
+}
+#activite2 #description2 h4{
+    color: black;
+    font-size: 15px;
+    float: inherit;
+    font-weight: 100;
+    font-size: 17px;
+    margin-top: 10px;
+}
+#activite2 #description3{
+    width: 25%;
+    text-align: center;
+    margin-top: 120px;
+    float: left;
+    padding: 0 3%;
+}
+#activite2 #description3 h3{
+    color: #457687;
+    font-weight: bold;
+    float: left;
+    padding-left: 50px;
+    font-size: 22px;
+}
+#activite2 #description3 img{
+    float: left;
+    width: 50px;
+    margin-top: -5px;
+    margin-left: 20px;
+}
+#activite2 #description3 h4{
+    color: black;
+    font-size: 15px;
+    float: inherit;
+    font-weight: 100;
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+/*-----END SECONDE BLOCK-----*/
+/*-----THIRD BLOCK-----*/
+
+
+
+
+
+
+#activite3{
+    background: url("../IMAGES/activit%C3%A93.png") 0 0 no-repeat;
+    background-size: 1450px;
+    height: 700px;
+    font-family: century;
+}
+#activite3 #text {
+    text-align: right;
+    margin-right: 5%;
+}
+#activite3 #text h2{
+    font-weight: bold;
+    font-size: 50px;
+    padding-top: 30px;
+    color: white;
+}
+#activite3 #text p{
+    color: white;
+    font-weight: 100;
+    width: 28%;
+    padding: 10px;
+    margin-left: 71.5%;
+    font-size: 17px;
+}
+#activite3 #text #subtitle1{
+    border-bottom: solid 1px #ea4d50;
+    width: 5%;
+    margin-top: 10px;
+    margin-left: 94.7%;
+}
+#activite3 #margin-top-text{
+    margin-top: 60px;
+}
+#activite3 a {
+    background-color: #ea4d50;
+    color: white;
+    padding: 15px 3vw;
+    top:1980px;
+    left: 200px;
+    position: absolute;
+    font-size: 20px;
+    float: left
+}
+#activite3 a img{
+    margin-right: 10px;
+    float: left;
+}
+#activite3 #description1{
+    width: 25%;
+    text-align: center;
+    margin-top: 155px;
+    margin-left: 5%;
+    float: left;
+}
+#activite3 #description1 h3{
+    color: #457687;
+    font-weight: bold;
+    float: left;
+    padding-left: 30px;
+    font-size: 22px;
+}
+#activite3 #description1 img{
+    float: left;
+    width: 50px;
+    margin-top: -15px;
+    padding-left: 20px;
+}
+#activite3 #description1 h4{
+    color: black;
+    font-size: 15px;
+    float: inherit;
+    font-weight: 100;
+    font-size: 17px;
+    margin-top: 10px;
+}
+#activite3 #description2{
+    width: 26%;
+    text-align: center;
+    margin-top:150px;
+    float: left;
+    padding: 0 3%;
+}
+#activite3 #description2 h3{
+    color: #457687;
+    font-weight: bold;
+    float: left;
+    padding-left: 50px;
+    font-size: 22px;
+}
+#activite3 #description2 img{
+    float: left;
+    width: 50px;
+    margin-top: -10px;
+    margin-left: 20px;
+}
+#activite3 #description2 h4{
+    color: black;
+    font-size: 15px;
+    float: inherit;
+    font-weight: 100;
+    font-size: 17px;
+    margin-top: 10px;
+}
+#activite3 #description3{
+    width: 26%;
+    text-align: center;
+    margin-top: 140px;
+    float: left;
+    padding: 0 3%;
+}
+#activite3 #description3 h3{
+    color: #457687;
+    font-weight: bold;
+    float: left;
+    padding-left: 50px;
+    font-size: 22px;
+}
+#activite3 #description3 img{
+    float: left;
+    width: 50px;
+    margin-top: -5px;
+    margin-left: 20px;
+}
+#activite3 #description3 h4{
+    color: black;
+    font-size: 15px;
+    float: inherit;
+    font-weight: 100;
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+/*-----END THIRD BLOCK-----*/
+/*-----FOURTH BLOCK-----*/
+
+
+
+
+
+#demande{
+    height: 500px;
+    font-family: century;
+}
+#demande #imageGauche{
+    float: left;
+    width: 55%;
+}
+#demande #imageGauche img{
+    width: 70%;
+    padding: 10% 0 0 10%;
+    
+}
+#demande #textDroite{
+    float: left;
+    width: 45%;
+}
+#demande #textDroite h3{
+    font-weight: 900;
+    font-size: 25px;
+    margin-top: 11%;
+}
+#demande #textDroite p{
+    margin-top: 5%;
+    width: 80%;
+}
+#demande button{
+    background-color: #ea4d50;
+    color: white;
+    border: none;
+    padding: 1% 4% 1% 4%;
+    margin-top: 5%;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+
+
+
+/*-----END FOURTH BLOCK-----*/
+
+.comment{
+    height: 80px;
+    width: 100%;
+    background-color: #7498a5;
+    color: white;
+}
+.comment p{
+    padding: 15px 80px;
+    font-size: 18px;
+    font-family: century;
+}
+
+
+/*-----***** RESPONSIVE PART *****----- */
+
+@media screen and (min-width: 990px) and (max-width: 1300px) {
+    #activite1{
+        height: 680px;
+    }
+    #activite1 #text h2{
+        font-size: 45px;
+    }
+    #activite1 #text p{
+    font-size: 15px;
+    }
+    #activite1 #description1{
+        margin-top: 60px;
+    }
+    #activite1 #description1 h3{
+    font-size: 20px;
+    }
+    #activite1 #description1 img{
+    width: 80px;
+}
+    #activite1 #description1 h4{
+    font-size: 15px;
+}
+    #activite1 #description2{
+        margin-top: 75px;
+    }
+    #activite1 #description2 h3{
+    font-size: 20px;
+    }
+    #activite1 #description2 img{
+    width: 80px;
+}
+    #activite1 #description2 h4{
+    font-size: 15px;
+}
+    #activite1 #description3{
+        margin-top: 85px;
+    }
+    #activite1 #description3 h3{
+    font-size: 20px;
+    }
+    #activite1 #description3 img{
+    width: 40px;
+}
+    #activite1 #description3 h4{
+    font-size: 15px;
+}
+    
+    #activite2 {
+        height: 650px;
+    }
+    #activite2 #text h2{
+        font-size: 45px;
+    }
+    #activite2 #text p{
+    font-size: 15px;
+    }
+    #activite2 a {
+    top:1160px;
+}
+    #activite2 #description1 h3{
+    font-size: 18px;
+    }
+    #activite2 #description1 img{
+    width: 40px;
+}
+    #activite2 #description1 h4{
+    font-size: 15px;
+}
+    #activite2 #description2 h3{
+    font-size: 20px;
+    }
+    #activite2 #description2 img{
+    width: 50px;
+}
+    #activite2 #description2 h4{
+    font-size: 15px;
+}
+    #activite2 #description3 h3{
+    font-size: 20px;
+    }
+    #activite2 #description3 img{
+    width: 40px;
+}
+    #activite2 #description3 h4{
+    font-size: 15px;
+}
+    
+    #activite3{
+        height: 650px;
+    }
+    #activite3 #text h2{
+        font-size: 45px;
+    }
+    #activite3 #text p{
+    font-size: 15px;
+    }
+    #activite3 a {
+    top:1890px;
+    }
+    #activite3 #description1 h3{
+    font-size: 18px;
+    }
+    #activite3 #description1 img{
+    width: 40px;
+}
+    #activite3 #description1 h4{
+    font-size: 15px;
+}
+    #activite3 #description2 h3{
+    font-size: 20px;
+    }
+    #activite3 #description2 img{
+    width: 40px;
+}
+    #activite3 #description2 h4{
+    font-size: 15px;
+}
+    #activite3 #description3 h3{
+    font-size: 20px;
+    }
+    #activite3 #description3 img{
+    width: 40px;
+}
+    #activite3 #description3 h4{
+    font-size: 15px;
+}
+    
+    .comment p {
+        font-size: 17px;
+    }
+}

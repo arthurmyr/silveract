@@ -1,0 +1,129 @@
+h2 {
+    font-size: 27px;
+    font-family: "circular";
+    margin-bottom: 5px;
+}
+h3 {
+    font-size: 25px;
+    font-family: "circular";
+    margin-bottom: 5px;
+}
+h4 {
+    font-size: 20px;
+    font-family: "century";
+    margin-bottom: 5px;
+}
+p, a, span, figcaption, label {
+    font-family: "century";
+    font-size: 16px;
+    line-height: 22px;
+}
+input[type="text"] {
+    font-family: "century";
+    font-size: 13px;
+}
+button {
+    font-family: "century";
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 9;
+    transition: all 0.5s;
+    letter-spacing: 0.5px;
+}
+.contactBtn, .bigContactBtn {
+    background-color: #e94d50;
+    color: white;
+    border: none;
+    background-image: url('../img/mail.svg');
+    background-repeat: no-repeat;
+}
+.contactBtn:hover, .bigContactBtn:hover {
+    background-color: white;
+    color: #e94d50;
+    background-image: url('../img/mail_red.svg');
+    border: solid #e94d50 1px;
+}
+
+.contactBtn {
+    padding: 8px 20px 8px 50px;
+    background-position: 14px center;
+    font-size: 16px;
+    background-size: 25px;
+}
+.bigContactBtn {
+    padding: 15px 20px 15px 70px;
+    background-position: 23px center;
+    font-size: 20px;
+    background-size: 30px;
+    box-shadow: 0px 4px 8px 0px grey;
+}
+.plusBtn {
+    cursor: pointer;
+    font-size: 16px;
+    padding: 7px 10px 7px 10px;
+    background-color: #447587;
+    color: white;
+    border: none;
+}
+.plusBtn:hover {
+    background-color: white;
+    color: #447587;
+    border: solid #447587 1px;
+    -webkit-transition-duration: 0.5s;
+}
+.clear {
+    clear: both;
+}
+.skew {
+    transform: skewX(-5deg);
+    -webkit-transform: skewX(-5deg);
+}
+.skew img {
+    transform: skewX(5deg);
+    -webkit-transform: skewX(5deg);
+}
+.skew p, .skew a, .skew h1, .skew h2, .skew h3, .skew h4, .skew span {
+    transform: skewX(5deg);
+    -webkit-transform: skewX(5deg);
+}
+.skewBtm {
+    transform: skewY(10deg);
+    width: 100%;
+    height: 42.5vw;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.skewBtm .img {
+    transform: skewY(-10deg);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: -112px;
+}
+.blackOverlay {
+    position: absolute;
+    width: 100%; 
+    height:100%;
+    top:0; 
+    left:0;
+    background: black;
+    opacity: 0.5;
+    transition: opacity 0.5s;
+    z-index: 2;
+}
+.blackOverlay.hover:hover {
+    opacity: 0;
+}
+hr {
+    width: 80px;
+    border: 0;
+    background-color: #e94d50;
+    height: 1px;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: 0;
+}
