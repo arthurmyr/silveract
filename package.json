@@ -1,0 +1,22 @@
+{
+  "name": "silveract",
+  "version": "1.0.0",
+  "description": "Webstart Project for Silver Act Company",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arthurmyr/silveract.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arthurmyr/silveract/issues"
+  },
+  "homepage": "https://github.com/arthurmyr/silveract#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
