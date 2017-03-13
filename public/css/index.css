@@ -88,6 +88,7 @@ section.activite article img {
     float: left;
     position: relative;
     transition: height 0.5s;
+    -webkit-transition: height 0.5s;
 }
 section.activite article:hover img {
     height: 70vw;
@@ -112,6 +113,7 @@ section.activite figcaption {
     color: white;
     z-index: 5;
     transition: all 1s;
+    -webkit-transition: all 1s;
     padding: 20px;
 }
 section.activite .bien-etre figcaption {
@@ -126,9 +128,13 @@ section.activite .culture figcaption {
 }
 section.activite .bien-etre figcaption, section.activite .culture figcaption {
     transform: skewX(-5deg);
+    -webkit-transform: skewX(-5deg);
+    -ms-transform: skewX(-5deg);
 }
 section.activite .bien-etre figcaption *, section.activite .culture figcaption * {
     transform: skewX(5deg);
+    -webkit-transform: skewX(5deg);
+    -ms-transform: skewX(5deg);
 }
 section.activite article:hover figcaption {
     color: black;
@@ -294,6 +300,8 @@ section.presse article {
 }
 section.presse .teleMatin {
     transform: skewX(-15deg);
+    -webkit-transform: skewX(-15deg);
+    -ms-transform: skewX(-15deg);
 }
 section.presse .europe1 {
     left: 0px;
@@ -311,6 +319,7 @@ section.presse .maVieEnSilver {
 section.presse article img {
     width: 100%;
     transition: all 0.5s;
+    -webkit-transition: all 0.5s;
 }
 section.presse article:hover img {
     width: 120%;
@@ -320,27 +329,34 @@ section.presse .teleMatin img {
     position: absolute;
     left: -20px;
     transform: skewX(15deg);
+    -webkit-transform: skewX(15deg);
+    -ms-transform: skewX(15deg);
 }
 section.presse article figcaption {
     position: absolute;
     bottom: 3vw;
     left: 30%;
-    color: white;
-    z-index: 3;
-    text-align: center;
-    transition: all 0.5s;
-    transform: skewX(-15deg);
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
+    z-index: 3;
+    color: white;
+    text-align: center;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transform: skewX(-15deg);
+    -webkit-transform: skewX(-15deg);
+    -ms-transform: skewX(-15deg);
 }
 section.presse article figcaption h3 {
-    transform: skewX(15deg);
-    margin-bottom: 10px;
+    -webkit-transform: skewX(15deg);
+    -ms-margin-bottom: 10px;
 }
 section.presse .teleMatin figcaption {
     transform: skewX(0deg);
+    -webkit-transform: skewX(0deg);
+    -ms-transform: skewX(0deg);
 }
 
 section.presse article:hover figcaption {
