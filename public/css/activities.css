@@ -6,10 +6,10 @@
 
 
 #activite1{
-    background: url("../IMAGES/activit%C3%A91.png") 0 50px no-repeat;
-    background-size: 1450px;
+    background: url("../img/activite1-cut.jpg") 0 0 no-repeat;
     height: 720px;
     font-family: century;
+    position: relative;
 }
 #activite1 #text {
     text-align: right;
@@ -17,15 +17,15 @@
 }
 #activite1 #text h2{
     font-weight: bold;
-    font-size: 50px;
-    padding-top: 100px;
+    font-size: 44px;
+    padding-top: 25px;
     color: white;
 }
 #activite1 #text #subtitle1{
     border-bottom: solid 1px #ea4d50;
     width: 5%;
     margin-top: 10px;
-    margin-left: 94.7%;
+    margin-left: 85%;
 }
 #activite1 #text p{
     color: white;
@@ -36,17 +36,12 @@
     font-size: 17px;
 }
 #activite1 #margin-top-text{
-    margin-top: 60px;
+    margin-top: 58px;
 }
 #activite1 a {
-    background-color: #ea4d50;
-    color: white;
-    padding: 15px 3vw;
-    top:450px;
-    left: 200px;
     position: absolute;
-    font-size: 20px;
-    float: left
+    top: 30vw;
+    left: 200px;
 }
 #activite1 a img{
     margin-right: 10px;
@@ -55,7 +50,7 @@
 #activite1 #description1{
     width: 30%;
     text-align: center;
-    margin-top: 52px;
+    margin-top: 100px;
     margin-left: 10%;
     float: left;
 }
@@ -79,7 +74,7 @@
 #activite1 #description2{
     width: 30%;
     text-align: center;
-    margin-top: 70px;
+    margin-top: 100px;
     float: left;
 }
 #activite1 #description2 h3{
@@ -103,7 +98,7 @@
 #activite1 #description3{
     width: 30%;
     text-align: center;
-    margin-top: 75px;
+    margin-top: 100px;
     float: left;
 }
 #activite1 #description3 h3{
@@ -143,10 +138,10 @@
 
 
 #activite2{
-    background: url("../IMAGES/activit%C3%A92.png") 0 0 no-repeat;
-    background-size: 1450px;
+    background: url("../img/activite2-cut.jpg") 0 0 no-repeat;
     height: 700px;
     font-family: century;
+    position: relative;
 }
 #activite2 #text {
     text-align: right;
@@ -170,20 +165,15 @@
     border-bottom: solid 1px #ea4d50;
     width: 5%;
     margin-top: 10px;
-    margin-left: 94.7%;
+    margin-left: 75%;
 }
 #activite2 #margin-top-text{
     margin-top: 60px;
 }
 #activite2 a {
-    background-color: #ea4d50;
-    color: white;
-    padding: 15px 3vw;
-    top:1200px;
-    left: 200px;
     position: absolute;
-    font-size: 20px;
-    float: left
+    top: 30vw;
+    left: 200px;
 }
 #activite2 a img{
     margin-right: 10px;
@@ -192,7 +182,7 @@
 #activite2 #description1{
     width: 25%;
     text-align: center;
-    margin-top: 135px;
+    margin-top: 90px;
     margin-left: 5%;
     float: left;
 }
@@ -220,7 +210,7 @@
 #activite2 #description2{
     width: 31vw;
     text-align: center;
-    margin-top:115px;
+    margin-top: 90px;
     float: left;
     padding:0 3%;
 }
@@ -248,7 +238,7 @@
 #activite2 #description3{
     width: 25%;
     text-align: center;
-    margin-top: 120px;
+    margin-top: 90px;
     float: left;
     padding: 0 3%;
 }
@@ -289,10 +279,10 @@
 
 
 #activite3{
-    background: url("../IMAGES/activit%C3%A93.png") 0 0 no-repeat;
-    background-size: 1450px;
+    background: url("../img/activite3-cut.jpg") 0 0 no-repeat;
     height: 700px;
     font-family: century;
+    position: relative;
 }
 #activite3 #text {
     text-align: right;
@@ -316,20 +306,15 @@
     border-bottom: solid 1px #ea4d50;
     width: 5%;
     margin-top: 10px;
-    margin-left: 94.7%;
+    margin-left: 86%;
 }
 #activite3 #margin-top-text{
     margin-top: 60px;
 }
 #activite3 a {
-    background-color: #ea4d50;
-    color: white;
-    padding: 15px 3vw;
-    top:1980px;
-    left: 200px;
     position: absolute;
-    font-size: 20px;
-    float: left
+    top: 30vw;
+    left: 200px;
 }
 #activite3 a img{
     margin-right: 10px;
@@ -458,14 +443,8 @@
     margin-top: 5%;
     width: 80%;
 }
-#demande button{
-    background-color: #ea4d50;
-    color: white;
-    border: none;
-    padding: 1% 4% 1% 4%;
-    margin-top: 5%;
-    font-size: 15px;
-    text-align: center;
+#demande .contactBtn {
+    margin-top: 30px;
 }
 
 
@@ -489,134 +468,3 @@
 
 /*-----***** RESPONSIVE PART *****----- */
 
-@media screen and (min-width: 990px) and (max-width: 1300px) {
-    #activite1{
-        height: 680px;
-    }
-    #activite1 #text h2{
-        font-size: 45px;
-    }
-    #activite1 #text p{
-    font-size: 15px;
-    }
-    #activite1 #description1{
-        margin-top: 60px;
-    }
-    #activite1 #description1 h3{
-    font-size: 20px;
-    }
-    #activite1 #description1 img{
-    width: 80px;
-}
-    #activite1 #description1 h4{
-    font-size: 15px;
-}
-    #activite1 #description2{
-        margin-top: 75px;
-    }
-    #activite1 #description2 h3{
-    font-size: 20px;
-    }
-    #activite1 #description2 img{
-    width: 80px;
-}
-    #activite1 #description2 h4{
-    font-size: 15px;
-}
-    #activite1 #description3{
-        margin-top: 85px;
-    }
-    #activite1 #description3 h3{
-    font-size: 20px;
-    }
-    #activite1 #description3 img{
-    width: 40px;
-}
-    #activite1 #description3 h4{
-    font-size: 15px;
-}
-    
-    #activite2 {
-        height: 650px;
-    }
-    #activite2 #text h2{
-        font-size: 45px;
-    }
-    #activite2 #text p{
-    font-size: 15px;
-    }
-    #activite2 a {
-    top:1160px;
-}
-    #activite2 #description1 h3{
-    font-size: 18px;
-    }
-    #activite2 #description1 img{
-    width: 40px;
-}
-    #activite2 #description1 h4{
-    font-size: 15px;
-}
-    #activite2 #description2 h3{
-    font-size: 20px;
-    }
-    #activite2 #description2 img{
-    width: 50px;
-}
-    #activite2 #description2 h4{
-    font-size: 15px;
-}
-    #activite2 #description3 h3{
-    font-size: 20px;
-    }
-    #activite2 #description3 img{
-    width: 40px;
-}
-    #activite2 #description3 h4{
-    font-size: 15px;
-}
-    
-    #activite3{
-        height: 650px;
-    }
-    #activite3 #text h2{
-        font-size: 45px;
-    }
-    #activite3 #text p{
-    font-size: 15px;
-    }
-    #activite3 a {
-    top:1890px;
-    }
-    #activite3 #description1 h3{
-    font-size: 18px;
-    }
-    #activite3 #description1 img{
-    width: 40px;
-}
-    #activite3 #description1 h4{
-    font-size: 15px;
-}
-    #activite3 #description2 h3{
-    font-size: 20px;
-    }
-    #activite3 #description2 img{
-    width: 40px;
-}
-    #activite3 #description2 h4{
-    font-size: 15px;
-}
-    #activite3 #description3 h3{
-    font-size: 20px;
-    }
-    #activite3 #description3 img{
-    width: 40px;
-}
-    #activite3 #description3 h4{
-    font-size: 15px;
-}
-    
-    .comment p {
-        font-size: 17px;
-    }
-}

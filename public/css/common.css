@@ -37,6 +37,7 @@ input[type="text"] {
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
     letter-spacing: 0.5px;
+    display: block;
 }
 .contactBtn, .bigContactBtn {
     background-color: #e94d50;
@@ -53,10 +54,11 @@ input[type="text"] {
 }
 
 .contactBtn {
-    padding: 8px 20px 8px 50px;
+    padding: 8px 13px 8px 50px;
     background-position: 14px center;
     font-size: 16px;
     background-size: 25px;
+    width: 149px;
 }
 .bigContactBtn {
     padding: 15px 20px 15px 70px;

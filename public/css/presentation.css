@@ -2,7 +2,6 @@
 #FirstBlock{
     width: 100%;
     height: 500px;
-    padding-top: 100px;
     font-family: century;
 }
 #FirstBlock #textGauche{
@@ -29,7 +28,7 @@
 /*-----END FIRST BLOCK*/
 #betw1{
     height: 185px;
-    background: url("../IMAGES/betw1.png") 0 0 no-repeat;
+    background: url("../img/headband1.jpg") 0 0 no-repeat;
     background-size: 100%;
 }
 /*-----SECONDE BLOCK-----*/
@@ -101,12 +100,12 @@
 /*-----END SECONDE BLOCK-----*/
 #betw2{
     height: 185px;
-    background: url("../IMAGES/betw2.png") 0 0 no-repeat;
+    background: url("../img/headband2.jpg") 0 0 no-repeat;
     background-size: 100%;
 }
 /*-----THIRD BLOCK-----*/
 #interv{
-    height: 630px;
+    height: 44vw;
     font-family: century;
 }
 #interv h2{

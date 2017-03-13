@@ -24,7 +24,92 @@
         </nav>
     </header>
    
-    <section></section>
+    <main class="contact">
+        <h2>NOUS CONTACTER</h2>
+        <img  class="secretaire" src="img/secretaire.png" alt="Une secrétaire au téléphone fouillant dans les dossiers">
+        
+        <div class="forms">
+            <section id="phoneSection">
+                <div class="title">
+                    <h3>Par téléphone :</h3>
+                    <hr>
+                </div>
+                <img src="img/call.png" alt="Icône de téléphone">
+                <span>07.82.82.41.68</span>
+            </section>
+
+            <section id="messageSection">
+                <div class="title">
+                    <h3>Via le formulaire de contact :</h3>
+                    <hr>
+                </div>
+                <div class="half left">
+                    <div>
+                        <label for="nomForm">Nom :</label>
+                        <input id="nomForm" type="text">
+                    </div>
+                    <div>
+                        <label for="prenomForm">Prénom :</label>
+                        <input id="prenomForm" type="text">
+                    </div>
+                </div>
+                <div class="half right">
+                    <div>
+                        <label for="mailForm">Adresse mail :</label>
+                        <input id="mailForm" type="text">
+                    </div>
+                    <div>
+                        <label for="telephoneForm">Numéro de téléphone :</label>
+                        <input id="telephoneForm" type="text">
+                    </div>
+                </div>
+                <div class="ordre">
+                    <label for="ordreForm">Ordre :</label>
+                    <select id="ordreForm">
+                        <option value="">Rendez-vous</option>
+                        <option value="">Activités Personnalisé</option>
+                        <option value="">Presse</option>
+                        <option value="">Autres</option>
+                    </select>
+                </div>
+                <div class="message">
+                    <label for="messageForm">Message :</label>
+                    <textarea name="" id="messageForm" cols="30" rows="10"></textarea>
+                </div>
+                <a class="btn contactBtn" href="#">VALIDER</a>
+            </section>
+
+            <section id="recallSection">
+                <div class="title">
+                    <h3>Me faire rappeler :</h3>
+                    <hr>
+                </div>
+                <div class="phoneNb">
+                    <label for="telephoneForm2">Numéro de téléphone :</label>
+                    <input id="telephoneForm2" type="text">
+                </div>
+                <div class="half">
+                    <div>
+                        <label for="typeJourForm2">Quel type de jour ?</label>
+                        <select id="typeJourForm2">
+                            <option value="">Semaine</option>
+                            <option value="">Weekend</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="momentForm2">A quel moment ?</label>
+                        <select id="momentForm2">
+                            <option value="">Matin</option>
+                            <option value="">Midi</option>
+                            <option value="">Soir</option>
+                        </select>
+                    </div>
+                </div>
+                <a class="btn contactBtn" href="#">VALIDER</a>
+            </section>
+        </div>
+    </main>
+    <img class="map" src="img/google-map.jpg" alt="Photo de google map situant l'entreprise Silver Act">
    
     <footer id="footer">
         <div class="icons">
